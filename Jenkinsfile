@@ -1,4 +1,3 @@
-
 pipeline{
     agent any
     tools{
@@ -8,7 +7,7 @@ pipeline{
     stages{
         stage("Fetch Code"){
             steps{
-                git 'https://github.com/ravdy/hello-world.git'
+                git 'https://github.com/ajaysingh81/Hello-world.git'
             }
         }
         
